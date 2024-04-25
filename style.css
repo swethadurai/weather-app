@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Kanit:900");
+body {
+  background-image: url(appbg.webp) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading {
+  font-weight: 200;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+form .inputsearch {
+  background-color: rgba(174, 240, 213, 0.5882352941);
+  border-radius: 20px;
+  border: thin solid rgb(65, 64, 64);
+  padding: 10px;
+  color: black;
+  width: 65%;
+  margin-right: 30px;
+}
+form .button1search {
+  background-color: rgba(0, 59, 35, 0.8078431373);
+  border: thin solid rgb(65, 64, 64);
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  width: 10%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+h1 {
+  color: #FFF !important;
+  font-family: "Kanit";
+  font-size: 60px;
+  line-height: 1em;
+  margin: 0;
+  top: 5%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-shadow: 0 1px 0 #8df0d2, 0 2px 0 #84efce, 0 3px 0 #7beeca, 0 4px 0 #72edc7, 0 5px 0 #69ecc3, 0 6px 0 #60ebc0, 0 7px 0 #57e9bc, 0 8px 0 #4ee8b8, 0 0 5px rgba(118, 253, 211, 0.05), 0 -1px 3px rgba(118, 253, 211, 0.2), 0 9px 9px rgba(118, 253, 211, 0.3), 0 12px 12px rgba(118, 253, 211, 0.3), 0 15px 15px rgba(118, 253, 211, 0.3);
+}
+
+.output {
+  margin-left: 30%;
+  margin-top: 20px;
+  padding: 10px;
+  color: rgb(0, 75, 50);
+  text-transform: capitalize;
+}
+.output ol li {
+  margin: 10px;
+  font-weight: 500;
+}/*# sourceMappingURL=style.css.map */
