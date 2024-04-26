@@ -13,7 +13,7 @@
 <img src="Screenshot (272).png">
 <img src="img/op5.png">
 
-<img src="img/op6.png"><img src="img/op7.png">
+<img src="img/op6.png"><img src="img/op4.png">
 
   
 </picture>
