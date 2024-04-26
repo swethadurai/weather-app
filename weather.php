@@ -1,3 +1,4 @@
+<?php include "dbconnection.php"?>
 <?php
   if(isset($_POST["submit"])){
     if(empty($_POST["city"])){
@@ -20,6 +21,18 @@
        $humidity=$weather["main"]["humidity"];
        $windspeed=$weather["wind"]["speed"];
        
-    }
+       $sql = "INSERT INTO data  VALUES ('',' $city',' $temp','$weath','$lattitude','$longitude','$windspeed',' $humidity')"; 
+         if(mysqli_query($conn, $sql)){
+          
+
+          
+      } else{
+          echo "ERROR: Hush! Sorry $sql. "
+              . mysqli_error($conn);
+      }
+       
+      // Close connection
+      mysqli_close($conn);
+       }
   }
 ?>

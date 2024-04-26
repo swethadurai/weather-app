@@ -45,6 +45,10 @@
                 </div>
             </div>
         </div>
+        <div>
+           <a href="dataexport.php"><button class="export-btn mb-3" style="padding: 5px;border: thin solid black;background-color:#003b23ce;color:white; margin-left:30%;border-radius:10px">download into excel</button></a> 
+        </div>
     </div>
+    <?php require "datas.php"?>
 </body>
 </html>
